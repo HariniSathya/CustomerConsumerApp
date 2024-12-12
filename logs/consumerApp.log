@@ -1,0 +1,28 @@
+2024-12-11T19:14:58.469-06:00  INFO 43656 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 43656 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T19:14:58.473-06:00  INFO 43656 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T19:14:58.565-06:00  INFO 43656 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T19:14:58.566-06:00  INFO 43656 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T19:15:00.063-06:00  INFO 43656 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-12-11T19:15:00.090-06:00  INFO 43656 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T19:15:00.090-06:00  INFO 43656 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T19:15:00.149-06:00  INFO 43656 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T19:15:00.150-06:00  INFO 43656 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1583 ms
+2024-12-11T19:15:00.702-06:00  WARN 43656 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-12-11T19:15:00.737-06:00  WARN 43656 --- [CustomerConsumerApp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-11T19:15:00.772-06:00  INFO 43656 --- [CustomerConsumerApp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11T19:15:00.804-06:00 ERROR 43656 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
