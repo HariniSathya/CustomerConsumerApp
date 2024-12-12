@@ -5,8 +5,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.HashMap;
@@ -29,6 +31,8 @@ public class CustomerConsumerAppApplication implements CommandLineRunner {
 		createCustomer(new CustomerEntity("Allen ", "", "Shaw", "Allen.shaw@email.com", "9876543210"));
 		getCustomerById(String.valueOf(4L));
 		getAllCustomers();
+		updateCustomer(new CustomerEntity(5L, "Harini ", "Sathya", "", "harini.sathyanarayanan@example.com", "8327252110"));
+
 	}
 
 
@@ -70,6 +74,29 @@ public class CustomerConsumerAppApplication implements CommandLineRunner {
 			System.out.println(customer.toString());
 		}
 	}
+
+	public void updateCustomer(CustomerEntity customer) {
+
+		String url = BASE_URL + "/updateCustomer";
+		try{
+			ResponseEntity<CustomerEntity> response = restTemplate.exchange(
+					url,
+					HttpMethod.PUT,
+					new HttpEntity<>(customer),
+					CustomerEntity.class
+			);
+			if (response.getStatusCode().is2xxSuccessful() && response.getBody() != null) {
+				System.out.println("Updated Customer: " + response.getBody().toString());
+			} else {
+				System.out.println("Failed to update Customer with id" + customer.getId() );
+			}
+		} catch (HttpClientErrorException.NotFound e) {
+			System.out.println("Customer with ID " + customer.getId() + " not found.");
+		} catch (HttpClientErrorException e) {
+			System.out.println("Failed to update Customer. Error: " + e.getStatusCode() + " - " + e.getMessage());
+		}
+	}
+
 
 
 }
