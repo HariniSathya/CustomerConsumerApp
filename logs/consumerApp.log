@@ -26,3 +26,555 @@ Action:
 
 Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
 
+2024-12-11T19:15:38.540-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 42264 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T19:15:38.543-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T19:15:38.620-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T19:15:38.620-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T19:15:40.092-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-12-11T19:15:40.116-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T19:15:40.116-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T19:15:40.202-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T19:15:40.203-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1581 ms
+2024-12-11T19:15:40.701-06:00  WARN 42264 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-12-11T19:15:40.741-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-12-11T19:15:40.753-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Started CustomerConsumerAppApplication in 2.873 seconds (process running for 3.475)
+2024-12-11T19:15:40.762-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Inside Create Customer Method
+2024-12-11T19:15:40.975-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Created Customer: CustomerEntity{id=104, firstName='Allen ', middleName='', lastName='Shaw', emailAddress='Allen.shaw@email.com', phoneNumber='9876543210'}
+2024-12-11T19:15:40.976-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Inside Get Customer By Id Method
+2024-12-11T19:15:40.997-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Fetched Customer: CustomerEntity{id=4, firstName='John ', middleName='', lastName='jnsddkf', emailAddress='tygj.sdfasdfsd@example.com', phoneNumber='12345678'}
+2024-12-11T19:15:40.998-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Inside Get All Customers Method
+2024-12-11T19:15:41.019-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : All Customers: 
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=4, firstName='John ', middleName='', lastName='jnsddkf', emailAddress='tygj.sdfasdfsd@example.com', phoneNumber='12345678'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=5, firstName='Harini ', middleName='', lastName='Sathya', emailAddress='harini.sathyanarayanan@example.com', phoneNumber='8327252110'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=7, firstName='guiukhkjnkj ', middleName='', lastName='jnsddkf', emailAddress='huguihij.sdfasdfsd@example.com', phoneNumber='12345678'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=8, firstName='abcdedj ', middleName='', lastName='jnsddkf', emailAddress='abcdedg.abcjdf@example.com', phoneNumber='12345678'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=10, firstName='6677cdedj ', middleName='', lastName='werjddkf', emailAddress='werabcd.qwcjdf@example.com', phoneNumber='123789678'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=12, firstName='6677cdedj1 ', middleName='', lastName='werjddk1f', emailAddress='w1erabcd.qw1cjdf@example.com', phoneNumber='123789678'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=13, firstName='66987cdedj1 ', middleName='', lastName='90rjddk1f', emailAddress='u889abcd.56771cjdf@example.com', phoneNumber='123789678'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=52, firstName='abcdef ', middleName='', lastName='abcdef', emailAddress='abcedf.abcdefg@example.com', phoneNumber='987650432'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=53, firstName='kapilesh ', middleName='', lastName='ramanathan', emailAddress='ram.kapilesh@example.com', phoneNumber='4693804515'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=55, firstName='kapilesh ', middleName='', lastName='ram', emailAddress='ram.kapilesh@email.com', phoneNumber='4693804515'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=103, firstName='jjkad1 ', middleName='', lastName='vz', emailAddress='ram1.kapilesh1@email.com', phoneNumber='4693804515'}
+2024-12-11T19:15:41.020-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=104, firstName='Allen ', middleName='', lastName='Shaw', emailAddress='Allen.shaw@email.com', phoneNumber='9876543210'}
+2024-12-11T19:15:41.021-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Inside Update Customer Method
+2024-12-11T19:15:41.032-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Updated Customer: CustomerEntity{id=5, firstName='Harini ', middleName='', lastName='Sathya', emailAddress='harini.sathyanarayanan@example.com', phoneNumber='8327252110'}
+2024-12-11T19:15:41.033-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Inside Delete Customer Method
+2024-12-11T19:15:41.043-06:00  INFO 42264 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Customer with ID 9 not found
+2024-12-11T22:01:18.603-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 59880 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T22:01:18.606-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T22:01:18.701-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T22:01:18.701-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T22:01:20.285-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-12-11T22:01:20.312-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T22:01:20.312-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T22:01:20.371-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T22:01:20.372-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1670 ms
+2024-12-11T22:01:20.462-06:00  WARN 59880 --- [CustomerConsumerApp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerConsumerAppApplication': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'customerService' defined in file [C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes\com\example\CustomerConsumerApp\service\CustomerService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-12-11T22:01:20.465-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-11T22:01:20.488-06:00  INFO 59880 --- [CustomerConsumerApp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11T22:01:20.521-06:00 ERROR 59880 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.CustomerConsumerApp.service.CustomerService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+2024-12-11T22:04:29.383-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 32500 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T22:04:29.387-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T22:04:29.476-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T22:04:29.477-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T22:04:31.016-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-12-11T22:04:31.042-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T22:04:31.043-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T22:04:31.103-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T22:04:31.104-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1626 ms
+2024-12-11T22:04:31.184-06:00  WARN 32500 --- [CustomerConsumerApp] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerConsumerAppApplication': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'customerService' defined in file [C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes\com\example\CustomerConsumerApp\service\CustomerService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'customerConsumerAppApplication': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2024-12-11T22:04:31.191-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-11T22:04:31.209-06:00  INFO 32500 --- [CustomerConsumerApp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11T22:04:31.252-06:00 ERROR 32500 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  customerConsumerAppApplication
+↑     ↓
+|  customerService defined in file [C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes\com\example\CustomerConsumerApp\service\CustomerService.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2024-12-11T22:05:43.080-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 6032 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T22:05:43.083-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T22:05:43.171-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T22:05:43.171-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T22:05:44.653-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-12-11T22:05:44.672-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T22:05:44.673-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T22:05:44.736-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T22:05:44.736-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1565 ms
+2024-12-11T22:05:45.304-06:00  WARN 6032 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-12-11T22:05:45.359-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-12-11T22:05:45.376-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Started CustomerConsumerAppApplication in 2.993 seconds (process running for 3.675)
+2024-12-11T22:05:45.587-06:00  INFO 6032 --- [CustomerConsumerApp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11T22:05:45.610-06:00 ERROR 6032 --- [CustomerConsumerApp] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "{"timestamp":"2024-12-12T04:05:45.570+00:00","status":500,"error":"Internal Server Error","message":"could not execute statement [Duplicate entry 'allen.shaw@email.com' for key 'customer.email_address'] [insert into customer (email_address,first_name,last_name,middle_name,phone_number,id) values (?,?,?,?,?,?)]; SQL [insert into customer (email_address,first_name,last_name,middle_name,phone_number,id) values (?,?,?,?,?,?)]; constraint [customer.email_address]","path":"/customer-service/save"}"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:102) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:701) ~[spring-web-6.1.15.jar:6.1.15]
+	at com.example.CustomerConsumerApp.service.CustomerService.createCustomer(CustomerService.java:27) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.createCustomer(CustomerConsumerAppApplication.java:47) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.run(CustomerConsumerAppApplication.java:39) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.6.jar:3.3.6]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.main(CustomerConsumerAppApplication.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.6.jar:3.3.6]
+
+2024-12-11T22:07:13.246-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 30104 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T22:07:13.250-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T22:07:13.336-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T22:07:13.337-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T22:07:14.880-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-12-11T22:07:14.900-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T22:07:14.900-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T22:07:14.962-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T22:07:14.962-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1624 ms
+2024-12-11T22:07:15.582-06:00  WARN 30104 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-12-11T22:07:15.637-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-12-11T22:07:15.650-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Started CustomerConsumerAppApplication in 3.223 seconds (process running for 3.858)
+2024-12-11T22:07:15.837-06:00 ERROR 30104 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Failed to Create Customer: null
+2024-12-11T22:07:15.846-06:00 ERROR 30104 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Customer Not Found: null
+2024-12-11T22:07:15.867-06:00  INFO 30104 --- [CustomerConsumerApp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11T22:07:15.898-06:00 ERROR 30104 --- [CustomerConsumerApp] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.web.client.RestClientException: Error while extracting response for type [com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>] and content type [application/json]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:119) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1159) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1142) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:892) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:701) ~[spring-web-6.1.15.jar:6.1.15]
+	at com.example.CustomerConsumerApp.service.CustomerService.getAllCustomers(CustomerService.java:51) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.getAllCustomers(CustomerConsumerAppApplication.java:65) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.run(CustomerConsumerAppApplication.java:41) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.6.jar:3.3.6]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.main(CustomerConsumerAppApplication.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.6.jar:3.3.6]
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>` from Array value (token `JsonToken.START_ARRAY`)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:104) ~[spring-web-6.1.15.jar:6.1.15]
+	... 31 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:660) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395) ~[spring-web-6.1.15.jar:6.1.15]
+	... 33 common frames omitted
+
+2024-12-11T22:09:59.677-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 60196 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T22:09:59.680-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T22:09:59.770-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T22:09:59.771-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T22:10:01.316-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-12-11T22:10:01.331-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T22:10:01.332-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T22:10:01.417-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T22:10:01.417-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1645 ms
+2024-12-11T22:10:01.974-06:00  WARN 60196 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-12-11T22:10:02.026-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-12-11T22:10:02.041-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Started CustomerConsumerAppApplication in 3.031 seconds (process running for 3.631)
+2024-12-11T22:10:02.199-06:00 ERROR 60196 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Customer Not Found: null
+2024-12-11T22:10:02.218-06:00  INFO 60196 --- [CustomerConsumerApp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11T22:10:02.240-06:00 ERROR 60196 --- [CustomerConsumerApp] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.web.client.RestClientException: Error while extracting response for type [com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>] and content type [application/json]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:119) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1159) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1142) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:892) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:701) ~[spring-web-6.1.15.jar:6.1.15]
+	at com.example.CustomerConsumerApp.service.CustomerService.getAllCustomers(CustomerService.java:51) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.getAllCustomers(CustomerConsumerAppApplication.java:65) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.run(CustomerConsumerAppApplication.java:41) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.6.jar:3.3.6]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.main(CustomerConsumerAppApplication.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.6.jar:3.3.6]
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>` from Array value (token `JsonToken.START_ARRAY`)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:104) ~[spring-web-6.1.15.jar:6.1.15]
+	... 31 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:660) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395) ~[spring-web-6.1.15.jar:6.1.15]
+	... 33 common frames omitted
+
+2024-12-11T22:12:16.721-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 28896 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T22:12:16.725-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T22:12:16.843-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T22:12:16.843-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T22:12:18.590-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-12-11T22:12:18.611-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T22:12:18.611-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T22:12:18.675-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T22:12:18.675-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1831 ms
+2024-12-11T22:12:19.321-06:00  WARN 28896 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-12-11T22:12:19.381-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-12-11T22:12:19.401-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Started CustomerConsumerAppApplication in 3.435 seconds (process running for 4.793)
+2024-12-11T22:12:19.650-06:00 ERROR 28896 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Customer Not Found: null
+2024-12-11T22:12:40.153-06:00  INFO 28896 --- [CustomerConsumerApp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11T22:12:40.293-06:00 ERROR 28896 --- [CustomerConsumerApp] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.web.client.RestClientException: Error while extracting response for type [com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>] and content type [application/json]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:119) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1159) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1142) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:892) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:701) ~[spring-web-6.1.15.jar:6.1.15]
+	at com.example.CustomerConsumerApp.service.CustomerService.getAllCustomers(CustomerService.java:51) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.getAllCustomers(CustomerConsumerAppApplication.java:65) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.run(CustomerConsumerAppApplication.java:41) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.6.jar:3.3.6]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.main(CustomerConsumerAppApplication.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.6.jar:3.3.6]
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>` from Array value (token `JsonToken.START_ARRAY`)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:104) ~[spring-web-6.1.15.jar:6.1.15]
+	... 31 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:660) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395) ~[spring-web-6.1.15.jar:6.1.15]
+	... 33 common frames omitted
+
+2024-12-11T22:15:35.700-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 21900 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T22:15:35.705-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T22:15:35.820-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T22:15:35.820-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T22:15:37.554-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-12-11T22:15:37.576-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T22:15:37.577-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T22:15:37.646-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T22:15:37.646-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1825 ms
+2024-12-11T22:15:38.257-06:00  WARN 21900 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-12-11T22:15:38.314-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-12-11T22:15:38.327-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Started CustomerConsumerAppApplication in 3.382 seconds (process running for 4.18)
+2024-12-11T22:15:38.494-06:00 ERROR 21900 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Customer Not Found: null
+2024-12-11T22:15:45.629-06:00  INFO 21900 --- [CustomerConsumerApp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11T22:15:45.828-06:00 ERROR 21900 --- [CustomerConsumerApp] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.web.client.RestClientException: Error while extracting response for type [com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>] and content type [application/json]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:119) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1159) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1142) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:892) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:701) ~[spring-web-6.1.15.jar:6.1.15]
+	at com.example.CustomerConsumerApp.service.CustomerService.getAllCustomers(CustomerService.java:51) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.getAllCustomers(CustomerConsumerAppApplication.java:65) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.run(CustomerConsumerAppApplication.java:41) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.6.jar:3.3.6]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.main(CustomerConsumerAppApplication.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.6.jar:3.3.6]
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>` from Array value (token `JsonToken.START_ARRAY`)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:104) ~[spring-web-6.1.15.jar:6.1.15]
+	... 31 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.example.CustomerConsumerApp.entity.ApiResponse<java.util.List<com.example.CustomerConsumerApp.entity.CustomerEntity>>` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:660) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:211) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395) ~[spring-web-6.1.15.jar:6.1.15]
+	... 33 common frames omitted
+
+2024-12-11T22:23:44.626-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 27244 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T22:23:44.631-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T22:23:44.743-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T22:23:44.743-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T22:23:46.303-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-12-11T22:23:46.327-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T22:23:46.328-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T22:23:46.396-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T22:23:46.396-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1652 ms
+2024-12-11T22:23:46.935-06:00  WARN 27244 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-12-11T22:23:46.979-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-12-11T22:23:46.996-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Started CustomerConsumerAppApplication in 3.144 seconds (process running for 3.787)
+2024-12-11T22:23:47.167-06:00 ERROR 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Customer Not Found: null
+2024-12-11T22:23:47.181-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : All Customers: 
+2024-12-11T22:23:47.182-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=4, firstName='John ', middleName='', lastName='jnsddkf', emailAddress='tygj.sdfasdfsd@example.com', phoneNumber='12345678'}
+2024-12-11T22:23:47.182-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=5, firstName='Harini ', middleName='', lastName='Sathya', emailAddress='harini.sathyanarayanan@example.com', phoneNumber='8327252110'}
+2024-12-11T22:23:47.182-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=7, firstName='guiukhkjnkj ', middleName='', lastName='jnsddkf', emailAddress='huguihij.sdfasdfsd@example.com', phoneNumber='12345678'}
+2024-12-11T22:23:47.182-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=8, firstName='abcdedj ', middleName='', lastName='jnsddkf', emailAddress='abcdedg.abcjdf@example.com', phoneNumber='12345678'}
+2024-12-11T22:23:47.183-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=10, firstName='6677cdedj ', middleName='', lastName='werjddkf', emailAddress='werabcd.qwcjdf@example.com', phoneNumber='123789678'}
+2024-12-11T22:23:47.183-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=12, firstName='6677cdedj1 ', middleName='', lastName='werjddk1f', emailAddress='w1erabcd.qw1cjdf@example.com', phoneNumber='123789678'}
+2024-12-11T22:23:47.183-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=13, firstName='66987cdedj1 ', middleName='', lastName='90rjddk1f', emailAddress='u889abcd.56771cjdf@example.com', phoneNumber='123789678'}
+2024-12-11T22:23:47.183-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=52, firstName='abcdef ', middleName='', lastName='abcdef', emailAddress='abcedf.abcdefg@example.com', phoneNumber='987650432'}
+2024-12-11T22:23:47.183-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=53, firstName='kapilesh ', middleName='', lastName='ramanathan', emailAddress='ram.kapilesh@example.com', phoneNumber='4693804515'}
+2024-12-11T22:23:47.183-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=55, firstName='kapilesh ', middleName='', lastName='ram', emailAddress='ram.kapilesh@email.com', phoneNumber='4693804515'}
+2024-12-11T22:23:47.183-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=103, firstName='jjkad1 ', middleName='', lastName='vz', emailAddress='ram1.kapilesh1@email.com', phoneNumber='4693804515'}
+2024-12-11T22:23:47.183-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=104, firstName='Allen ', middleName='', lastName='Shaw', emailAddress='Allen.shaw@email.com', phoneNumber='9876543210'}
+2024-12-11T22:23:47.183-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=106, firstName='Elena', middleName='', lastName='Green', emailAddress='Elena.Green@email.com', phoneNumber='9876543210'}
+2024-12-11T22:23:47.233-06:00 ERROR 27244 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Failed to Update Customer: null
+2024-12-11T22:23:47.247-06:00  INFO 27244 --- [CustomerConsumerApp] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11T22:23:47.285-06:00 ERROR 27244 --- [CustomerConsumerApp] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.web.client.RestClientException: Error while extracting response for type [com.example.CustomerConsumerApp.entity.ApiResponse<java.lang.String>] and content type [application/json]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:119) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1159) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1142) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:892) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:701) ~[spring-web-6.1.15.jar:6.1.15]
+	at com.example.CustomerConsumerApp.service.CustomerService.deleteCustomer(CustomerService.java:80) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.deleteCustomer(CustomerConsumerAppApplication.java:84) ~[classes/:na]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.run(CustomerConsumerAppApplication.java:43) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.1.15.jar:6.1.15]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.6.jar:3.3.6]
+	at com.example.CustomerConsumerApp.CustomerConsumerAppApplication.main(CustomerConsumerAppApplication.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.6.jar:3.3.6]
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Customer': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354) ~[spring-web-6.1.15.jar:6.1.15]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:104) ~[spring-web-6.1.15.jar:6.1.15]
+	... 31 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Customer': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 10]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2572) ~[jackson-core-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2598) ~[jackson-core-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2606) ~[jackson-core-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:765) ~[jackson-core-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3662) ~[jackson-core-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2749) ~[jackson-core-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:867) ~[jackson-core-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:753) ~[jackson-core-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader._initForReading(ObjectReader.java:357) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2115) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395) ~[spring-web-6.1.15.jar:6.1.15]
+	... 33 common frames omitted
+
+2024-12-11T22:29:07.471-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Starting CustomerConsumerAppApplication using Java 19.0.1 with PID 45420 (C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp\target\classes started by tech.user in C:\Users\tech.user\Workspace\vertex practice\CustomerConsumerApp)
+2024-12-11T22:29:07.474-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T22:29:07.562-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T22:29:07.562-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T22:29:09.107-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-12-11T22:29:09.132-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T22:29:09.133-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T22:29:09.201-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T22:29:09.201-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1638 ms
+2024-12-11T22:29:09.763-06:00  WARN 45420 --- [CustomerConsumerApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-12-11T22:29:09.816-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-12-11T22:29:09.828-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Started CustomerConsumerAppApplication in 3.054 seconds (process running for 3.716)
+2024-12-11T22:29:10.002-06:00 ERROR 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Customer Not Found: null
+2024-12-11T22:29:10.016-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : All Customers: 
+2024-12-11T22:29:10.017-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=4, firstName='John ', middleName='', lastName='jnsddkf', emailAddress='tygj.sdfasdfsd@example.com', phoneNumber='12345678'}
+2024-12-11T22:29:10.018-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=5, firstName='Sheldon', middleName='Lee', lastName='Cooper', emailAddress='sheldon.cooper@example.com', phoneNumber='8327252110'}
+2024-12-11T22:29:10.018-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=7, firstName='guiukhkjnkj ', middleName='', lastName='jnsddkf', emailAddress='huguihij.sdfasdfsd@example.com', phoneNumber='12345678'}
+2024-12-11T22:29:10.018-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=8, firstName='abcdedj ', middleName='', lastName='jnsddkf', emailAddress='abcdedg.abcjdf@example.com', phoneNumber='12345678'}
+2024-12-11T22:29:10.018-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=10, firstName='6677cdedj ', middleName='', lastName='werjddkf', emailAddress='werabcd.qwcjdf@example.com', phoneNumber='123789678'}
+2024-12-11T22:29:10.018-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=12, firstName='6677cdedj1 ', middleName='', lastName='werjddk1f', emailAddress='w1erabcd.qw1cjdf@example.com', phoneNumber='123789678'}
+2024-12-11T22:29:10.018-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=13, firstName='66987cdedj1 ', middleName='', lastName='90rjddk1f', emailAddress='u889abcd.56771cjdf@example.com', phoneNumber='123789678'}
+2024-12-11T22:29:10.018-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=52, firstName='abcdef ', middleName='', lastName='abcdef', emailAddress='abcedf.abcdefg@example.com', phoneNumber='987650432'}
+2024-12-11T22:29:10.018-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=53, firstName='kapilesh ', middleName='', lastName='ramanathan', emailAddress='ram.kapilesh@example.com', phoneNumber='4693804515'}
+2024-12-11T22:29:10.018-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=55, firstName='kapilesh ', middleName='', lastName='ram', emailAddress='ram.kapilesh@email.com', phoneNumber='4693804515'}
+2024-12-11T22:29:10.019-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=103, firstName='jjkad1 ', middleName='', lastName='vz', emailAddress='ram1.kapilesh1@email.com', phoneNumber='4693804515'}
+2024-12-11T22:29:10.019-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=104, firstName='Allen ', middleName='', lastName='Shaw', emailAddress='Allen.shaw@email.com', phoneNumber='9876543210'}
+2024-12-11T22:29:10.019-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : CustomerEntity{id=106, firstName='Elena', middleName='', lastName='Green', emailAddress='Elena.Green@email.com', phoneNumber='9876543210'}
+2024-12-11T22:29:10.047-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Customer Updated: CustomerEntity{id=5, firstName='Sheldon', middleName='Lee', lastName='Cooper', emailAddress='sheldon.cooper@example.com', phoneNumber='8327252110'}
+2024-12-11T22:29:10.057-06:00  INFO 45420 --- [CustomerConsumerApp] [restartedMain] c.e.C.CustomerConsumerAppApplication     : Customer Deleted: Customer with ID 9 not found
